@@ -1,11 +1,11 @@
-const url = 'http://www.themealdb.com/api/json/v1/1/filter.php?c=Seafood';
+const url = 'https://www.themealdb.com/api/json/v1/1/search.php?f=c';
 
 const getFoodList = async (url) => {
-    const response = await fetch(url);
-    const json = await response.json();
-    const mealList = json.meals.slice(0, 12);
+  const response = await fetch(url);
+  const json = await response.json();
+  const mealList = json.meals.slice(0, 12);
 
-    return mealList;
+  return mealList;
 };
 
-export { url, getFoodList};
+export { url, getFoodList };
