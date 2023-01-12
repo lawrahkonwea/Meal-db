@@ -1,6 +1,6 @@
 import './style.css';
 import populateMeal from './modules/populate.js';
-import { createLikes } from './modules/getLikes.js';
+import { createLikes } from './modules/getlikes.js';
 import showlike from './modules/displayLikes.js';
 
 document.addEventListener('DOMContentLoaded', async () => {
@@ -9,7 +9,6 @@ document.addEventListener('DOMContentLoaded', async () => {
   textLikes.forEach(async (textLike) => {
     await showlike(textLike);
   });
-
 });
 
 window.addEventListener('click', async (e) => {

@@ -14,7 +14,7 @@ const getMeals = async () => {
       image: food.strMealThumb,
       category: food.strCategory,
       area: food.strArea,
-      instructions: food.strInstructions
+      instructions: food.strInstructions,
     };
     mealsArr.push(foodObj);
   });
