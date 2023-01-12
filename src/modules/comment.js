@@ -1,4 +1,4 @@
-import countComments from './countcomments.js';
+import countComments from './countcomment.js';
 
 const getComments = async (foodId) => {
   const requestURL = `https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/iD8cGInPlC4yvUbCyKZp/comments?item_id=${foodId}`;
@@ -45,4 +45,3 @@ export function commentsElement(arrComments) {
 }
 
 export default getComments;
-
