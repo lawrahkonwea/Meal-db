@@ -2,7 +2,7 @@ import './style.css';
 import populateMeal from './modules/populate.js';
 import { createLikes } from './modules/getlikes.js';
 import showlike from './modules/displayLikes.js';
-import counter from './modules/mealCount.js'
+import counter from './modules/mealCount.js';
 
 document.addEventListener('DOMContentLoaded', async () => {
   await populateMeal();
