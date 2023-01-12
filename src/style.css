@@ -18,21 +18,13 @@ body {
   padding: 18px 20%;
   background-color: #66a5fd;
   color: #f9faf8;
-
-  /* position: fixed;
-  width: 100%; */
+  
 }
 
 .logo {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
-  color: #f9faf8;
-}
-
-.links {
-  font-size: 32px;
-  font-weight: 500;
   color: #f9faf8;
 }
 
