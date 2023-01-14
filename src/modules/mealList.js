@@ -12,6 +12,9 @@ const getMeals = async () => {
       id: food.idMeal,
       name: food.strMeal,
       image: food.strMealThumb,
+      category: food.strCategory,
+      area: food.strArea,
+      instructions: food.strInstructions,
     };
     mealsArr.push(foodObj);
   });

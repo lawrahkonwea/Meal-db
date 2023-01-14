@@ -18,12 +18,21 @@ body {
   padding: 18px 20%;
   background-color: #66a5fd;
   color: #f9faf8;
+
+  /* position: fixed;
+  width: 100%; */
 }
 
 .logo {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+  color: #f9faf8;
+}
+
+.links {
+  font-size: 32px;
+  font-weight: 500;
   color: #f9faf8;
 }
 
@@ -82,6 +91,7 @@ h2,
   display: flex;
   align-items: center;
   text-align: center;
+  cursor: pointer;
 }
 
 .likes {
@@ -110,4 +120,9 @@ footer {
   color: #fff;
   padding: 22px 0;
   vertical-align: middle;
+}
+
+.github-link:hover {
+  color: rgb(194, 73, 3);
+  transition: 0.9s ease;
 }
