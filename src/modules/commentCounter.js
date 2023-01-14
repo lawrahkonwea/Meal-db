@@ -1,8 +1,6 @@
-const commentCounter = (data, link) => {
-  if (data.length) {
-    link.innerHtml = `comment(${data.length})`;
-  }
-  return data.length;
+const commentCounter = () => {
+  const commentCount = document.querySelectorAll('.usercomments').length;
+  return commentCount;
 };
 
 export default commentCounter;
