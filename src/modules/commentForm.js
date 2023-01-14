@@ -7,7 +7,6 @@ const commentModal = document.querySelector('.popup-container');
 const instruction = document.querySelector('.instruction');
 const close = document.querySelector('#close');
 
-// const url = 'https://www.themealdb.com/api/json/v1/1/search.php?f=b'
 const url = 'https://www.themealdb.com/api/json/v1/1/lookup.php?i=';
 
 const form = (id) => {
@@ -27,10 +26,7 @@ const form = (id) => {
   const formButton = document.querySelector('.btn');
   commentForm.addEventListener('submit', (e) => {
     e.preventDefault();
-    // console.log(e.target, commentForm.element)
-    // console.log(formName.value,formcomment.value,formButton.id)
     if (formName.value && formcomment.value) {
-      // console.log(formName.value,formcomment.value,formButton.id)
       postComment(formName.value, formcomment.value, formButton.id);
       commentForm.reset();
     }
@@ -47,7 +43,6 @@ const modalcomment = () => {
         .then((response) => response.json())
         .then((data) => {
           const mealDetail = data.meals[0];
-          // console.log(data.meals[0])
           commentModal.classList.remove('hidden');
           image.setAttribute('src', mealDetail.strMealThumb);
           dishName.innerHTML = mealDetail.strMeal;
