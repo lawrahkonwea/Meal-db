@@ -199,18 +199,42 @@ Example:
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/lawrahkonwea)
-- Twitter: [@twitterhandle](https://twitter.com/lawrah_xo)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/amakalaurakonwea)
+- GitHub: (https://github.com/lawrahkonwea)
+- Twitter: (https://twitter.com/lawrah_xo)
+- LinkedIn: (https://linkedin.com/in/amakalaurakonwea)
 
 👤 **Author2**
 
-- GitHub: [@githubhandle](https://github.com/naolkidanu)
-- Twitter: [@twitterhandle](https://twitter.com/naol18)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/naolkidanu)
+- GitHub: (https://github.com/naolkidanu)
+- Twitter: (https://twitter.com/naol18)
+- LinkedIn: (https://linkedin.com/in/naolkidanu)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+> Describe 1 - 3 features you will add to the project.
+
+- [ ] **[Add meal page]**
+- [ ] **[A share meal page]**
+- [ ] **[Competition page]**
+
+
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- LICENSE -->
