@@ -1,12 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Patrick+Hand&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 body {
-  font-family: 'Lato', 'roboto', sans-serif;
-
-  /* background-image: url('http://127.0.0.1:5500/dist/b190d3df533764e4f333.jpg'); */
+  font-family: "Poppins", sans-serif;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
-  image-rendering: -webkit-optimize-contrast;
   color: #000;
   margin: 0;
 }
@@ -18,21 +16,12 @@ body {
   padding: 18px 20%;
   background-color: #66a5fd;
   color: #f9faf8;
-
-  /* position: fixed;
-  width: 100%; */
 }
 
 .logo {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
-  color: #f9faf8;
-}
-
-.links {
-  font-size: 32px;
-  font-weight: 500;
   color: #f9faf8;
 }
 
@@ -125,4 +114,102 @@ footer {
 .github-link:hover {
   color: rgb(194, 73, 3);
   transition: 0.9s ease;
+}
+
+.hidden {
+  display: none;
+}
+
+.popup-container {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(7, 8, 8, 0.861);
+  box-sizing: border-box;
+  overflow-y: scroll;
+}
+
+.close-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#close {
+  color: red;
+  background-color: #fff;
+  padding: 6px;
+  transition: 0.5s;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#close:hover {
+  color: white;
+  background-color: #000;
+}
+
+.date {
+  padding: 5px;
+}
+
+.popup-image {
+  background-color: white;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.popup-window {
+  background-color: rgb(255, 207, 149);
+  width: 50%;
+  margin: auto;
+  margin-top: 10%;
+  padding: 10px;
+  border-radius: 20px;
+  border: 2px solid black;
+}
+
+.dish-name,
+.comments-counter,
+.add {
+  font-family: "Courgette", cursive;
+  font-size: 25px;
+  text-align: center;
+  padding: 10px;
+  color: #fff;
+}
+
+.commentrow-bg {
+  background-color: #fff;
+}
+
+.comments-generator {
+  border: 2px solid black;
+  display: block;
+}
+
+input {
+  display: block;
+  margin-bottom: 4px;
+  border-radius: 5px;
+  padding: 7px;
+  border: none;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #66a5fd;
+  transition: 0.9s ease;
+}
+
+@media screen and (min-width: 50em) {
+  .popup-window {
+    width: 50%;
+  }
 }
