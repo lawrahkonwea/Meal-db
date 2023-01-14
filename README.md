@@ -22,14 +22,6 @@ REQUIRED SECTIONS:
 After you're finished please remove all the comments and instructions!
 -->
 
-<div align="center">
-
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>Microverse README Template</b></h3>
-
-</div>
 
 <!-- TABLE OF CONTENTS -->
 
@@ -59,15 +51,13 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [Capstone Project 2]<a name="about-project"> is a JavaScript capstone project is about building our own web application based on an external API. We selected an API that provides data about a topic that we like and then build the webapp around it.</a>
 
-> Describe your project in 1 or 2 sentences.
 
-**[Capstone Project 2] is a JavaScript capstone project is about building our own web application based on an external API. We selected an API that provides data about a topic that we like and then build the webapp around it.>
+Capstone Project 2 is a JavaScript capstone project is about building our own web application based on an external API. We selected an API that provides data about a topic that we like and then build the webapp around it.>
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
 
 <details>
   <ul>
@@ -91,11 +81,11 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
 
-- **[Fetch data from API]*
-- **[Load the UI Dynamically from data gotten through Api GET]**
-- **[HAS a dynamic POP]**
+
+- Fetch data from API
+- Load the UI Dynamically from data gotten through Api GET
+- HAS a dynamic POP
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -103,15 +93,11 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
-
 - [Live Demo Link](https://lawrahkonwea.github.io/Capstone-module-2/dist/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Description video <a name="live-demo"></a>
-
-> Add a link to your deployed project.
 
 - [Description Link](https://drive.google.com/file/d/1mizkYo9I8O161TQX-ivuD08THSIrgYzL/view)
 
@@ -122,7 +108,6 @@ After you're finished please remove all the comments and instructions!
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
 
 To get a local copy up and running, follow these steps.
 
@@ -204,7 +189,6 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
 
 👤 **Author1**
 
@@ -224,13 +208,9 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[Add meal page]**
-- [ ] **[A share meal page]**
-- [ ] **[Competition page]**
-
-
+- [ ] Add meal page
+- [ ] A share meal page
+- [ ] Competition page
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
