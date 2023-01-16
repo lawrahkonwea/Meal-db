@@ -97,12 +97,6 @@ Capstone Project 2 is a JavaScript capstone project is about building our own we
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🚀 Description video <a name="live-demo"></a>
-
-- [Description Link]()
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 <!-- GETTING STARTED -->
 
