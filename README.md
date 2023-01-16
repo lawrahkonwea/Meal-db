@@ -93,13 +93,13 @@ Capstone Project 2 is a JavaScript capstone project is about building our own we
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://lawrahkonwea.github.io/Capstone-module-2/dist/)
+- [Live Demo Link]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Description video <a name="live-demo"></a>
 
-- [Description Link](https://drive.google.com/file/d/1mizkYo9I8O161TQX-ivuD08THSIrgYzL/view)
+- [Description Link]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
