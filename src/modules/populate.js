@@ -1,5 +1,6 @@
 import { grid } from './constant.js';
 import getMeals from './mealList.js';
+import modalcomment from './commentForm.js';
 
 const populateMeal = async () => {
   const foods = await getMeals();
@@ -16,12 +17,13 @@ const populateMeal = async () => {
       </div>
       <div class="likes">
         <p data-id="${food.id}" class="like-counter"></p>
-        <button data-id="${food.id}" onclick="openPopupWindow('${food.id}')">Comment</button>
+        <button class="comment-btn" id="${food.id}">Comment</button>
       </div>
       </div>
         `;
     grid.innerHTML += pop;
   });
+  modalcomment();
 };
 
 export default populateMeal;
