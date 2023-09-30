@@ -23,6 +23,7 @@ body {
   font-weight: 900;
   font-style: italic;
   color: #f9faf8;
+  margin-right: 15px;
 }
 
 a {
@@ -166,7 +167,7 @@ footer {
   background-color: rgb(255, 207, 149);
   width: 50%;
   margin: auto;
-  margin-top: 10%;
+  margin-top: 5%;
   padding: 10px;
   border-radius: 20px;
   border: 2px solid black;
